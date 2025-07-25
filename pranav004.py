@@ -7,6 +7,8 @@ elif op == '-':
     Result= num1 - num2
 elif op == '*':
     Result=num1 * num2
+elif op == '**':
+    Result=num1 ** num2
 elif op == '/':
     if num2 != 0:
         Result= num1 / num2
